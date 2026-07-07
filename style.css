@@ -258,3 +258,34 @@ border-radius:25px;
 cursor:pointer;
 
 }
+.cartItem{
+
+background:white;
+padding:20px;
+margin:15px auto;
+max-width:500px;
+border-radius:15px;
+box-shadow:0 5px 15px #ddd;
+
+}
+
+
+.cartItem button{
+
+background:#222;
+color:white;
+border:0;
+padding:8px 20px;
+border-radius:20px;
+cursor:pointer;
+
+}
+
+
+
+.total{
+
+text-align:center;
+margin:30px;
+
+}
