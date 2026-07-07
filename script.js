@@ -125,3 +125,39 @@ loadCart();
 
 
 loadCart();
+function sendOrder(){
+
+let name =
+document.getElementById("name").value;
+
+let phone =
+document.getElementById("phone").value;
+
+let address =
+document.getElementById("address").value;
+
+let payment =
+document.getElementById("payment").value;
+
+
+let order = {
+
+customer:name,
+phone:phone,
+address:address,
+payment:payment,
+products:cart
+
+};
+
+
+console.log(order);
+
+
+alert("تم إرسال الطلب بنجاح");
+
+
+localStorage.removeItem("cart");
+
+
+}
